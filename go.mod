@@ -2,7 +2,6 @@ module github.com/kitex-contrib/registry-eureka
 
 go 1.21
 
-
 require (
 	github.com/cloudwego-contrib/cwgo-pkg/registry/eureka v0.0.0-00010101000000-000000000000
 	github.com/cloudwego/kitex v0.11.0
@@ -61,6 +60,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/eureka => ../cwgo-pkg-registry/registry/eureka
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/eureka => github.com/smx-Morgan/cwgo-pkg/registry/eureka v0.0.0-20241016000926-d56ef7e0f578
 
 replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
