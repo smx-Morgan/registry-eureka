@@ -6,7 +6,6 @@ require (
 	github.com/cloudwego-contrib/cwgo-pkg/registry/eureka v0.0.0-00010101000000-000000000000
 	github.com/cloudwego/kitex v0.11.0
 	github.com/cloudwego/kitex-examples v0.3.3
-	github.com/hudl/fargo v1.4.0
 	github.com/stretchr/testify v1.9.0
 )
 
@@ -33,6 +32,7 @@ require (
 	github.com/franela/goreq v0.0.0-20171204163338-bcd34c9993f8 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8 // indirect
+	github.com/hudl/fargo v1.4.0 // indirect
 	github.com/iancoleman/strcase v0.2.0 // indirect
 	github.com/jhump/protoreflect v1.8.2 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect

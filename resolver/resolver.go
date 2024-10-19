@@ -17,13 +17,7 @@ package resolver
 import (
 	eurekaresolver "github.com/cloudwego-contrib/cwgo-pkg/registry/eureka/eurekakitex/resolver"
 	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/hudl/fargo"
 )
-
-// eurekaResolver is a resolver using eureka.
-type eurekaResolver struct {
-	eurekaConn *fargo.EurekaConnection
-}
 
 // NewEurekaResolver creates a eureka resolver.
 func NewEurekaResolver(servers []string) discovery.Resolver {

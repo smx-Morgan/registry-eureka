@@ -15,17 +15,11 @@
 package registry
 
 import (
-	"context"
 	eurekakitex "github.com/cloudwego-contrib/cwgo-pkg/registry/eureka/eurekakitex/registry"
 	"time"
 
 	"github.com/cloudwego/kitex/pkg/registry"
 )
-
-type eurekaHeartbeat struct {
-	cancel      context.CancelFunc
-	instanceKey string
-}
 
 // NewEurekaRegistry creates a eureka registry.
 func NewEurekaRegistry(servers []string, heatBeatInterval time.Duration) registry.Registry {
